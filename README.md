@@ -5,15 +5,15 @@
 
 ### host配置
 将以下域名地址指向本机(127.0.0.1)：
-m.wph.com
-view.wph.com
-global.wph.com
-sm.wph.com
-sview.wph.com
-sglobal.wph.com
-www.wph.com
-app.wph.com
-sapp.wph.com
+#m.wph.com
+#view.wph.com
+#global.wph.com
+#sm.wph.com
+#sview.wph.com
+#sglobal.wph.com
+#www.wph.com
+#app.wph.com
+#sapp.wph.com
 
 ### 移动端项目工程运行（m/sm）
 1，在根目录下运行 npm i ；
@@ -30,8 +30,8 @@ ps: 如果安装了npm淘宝镜像cnpm，最好在执行步骤2的时候不要�
 ##工程结构目录说明
 
 ###前端JS框架：
-src/views/node_modules/@po-to/tomato
-src/views/node_modules/@po-to/tomato-jquery
+#src/views/node_modules/@po-to/tomato
+#src/views/node_modules/@po-to/tomato-jquery
 
 ###客户端基本文件：
 1，src\node_modules\views\global\common\API 前端ajax请求api的总文件
